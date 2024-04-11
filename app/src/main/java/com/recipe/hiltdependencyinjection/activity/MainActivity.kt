@@ -23,5 +23,6 @@ class MainActivity : AppCompatActivity() {
     private fun init() {
         sampleRepository.callApi()
         sampleRepository.callApiByOtherClass()
+        sampleRepository.callInterfaceFunction()
     }
 }
