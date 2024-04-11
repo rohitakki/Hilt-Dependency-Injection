@@ -17,6 +17,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        init()
+    }
+
+    private fun init() {
         sampleRepository.callApi()
+        sampleRepository.callApiByOtherClass()
     }
 }
